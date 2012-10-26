@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="utf-8" />
+		<title>三级联动</title>
+		<script type="text/javascript" src="jquery-1.6.min.js"></script>
+		<script type="text/javascript" src="select.js"></script>
+		<script type="text/javascript" >
+			$( function() {
+				var arr1=["浙江","安徽","江苏"];
+				var arr2=[];
+				arr2[0]=["浙江","杭州","温州"];
+				arr2[1]=["安徽","安徽1","安徽2"];
+				arr2[2]=["江苏","江苏1","江苏2"];
+				var arr3=[];
+				arr3[0]=["杭州","杭州1","杭州2"];
+				arr3[1]=["温州","温州1","温州2"]
+				arr3[2]=["安徽1","安徽11","安徽13"]
+				arr3[3]=["江苏1","江苏11","江苏12"]
+				var b=new select({
+					"first":"#a",
+					"second":"#b",
+					"third":"#c"
+				}, {
+					"firstArr":arr1,
+					"secondArr":arr2,
+					"thirdArr":arr3
+				});
+				b.init();
+			})
+		</script>
+	</head>
+	<body>
+		<select id="a">
+			<option>请选择...</option>
+		</select>
+		<select id="b">
+			<option>请选择...</option>
+		</select>
+		<select id="c">
+			<option>请选择...</option>
+		</select>
+	</body>
+</html>
