@@ -1,0 +1,688 @@
+/*
+ * Created by demon.
+ * User: Administrator
+ * Date: 12-10-11
+ * Time: 下午1:42
+ * To personal
+ */
+
+/*左侧*/
+.personal-sub{
+	width: 220px;
+	float: left;
+	background-color: #faf8f6;
+
+}
+.personal-sub .sub-box{
+	border: 1px solid #cbcbcb;
+}
+.personal-sub .p-info{
+	padding: 10px;
+	height: 52px;
+}
+.personal-sub .p-info .imgbox{
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #cbcbcb;
+}
+.personal-sub .p-info .info{
+	width:  136px;
+	float: left;
+	padding-left: 10px;
+	line-height: 20px;
+	color: #666666;
+}
+.personal-sub .p-info .info em{
+	font-weight: bold;
+}
+.personal-sub .o-info{
+	padding: 0 10px 5px;
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px dashed #cbcbcb;
+}
+.personal-sub .o-info li{
+	float: left;
+	width: 74px;
+}
+.personal-sub .o-info .p-data{
+	width: 50px;
+	text-align: right;
+	float: right;
+}
+.personal-sub .add-btn{
+	width: 64px;
+	height: 23px;
+	border: 0 none;
+	background-color: #ED456D;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	color: white;
+	margin: 10px 0 0 10px;
+	cursor: pointer;
+}
+/*输入框*/
+.personal-sub .set-mood{
+	padding: 15px 10px 0;
+	position: relative;
+}
+.personal-sub .set-mood .mood-box{
+	border: 1px solid #cbcbcb;
+	padding: 5px 10px 10px;
+	background-color: #fff;
+}
+.personal-sub .set-mood .mood-icon{
+	position: absolute;
+	width:9px;
+	height:6px;
+	background-position: 0 0;
+	top: 10px;
+	left: 30px;
+}
+.personal-sub .set-mood .tx{
+	color: #666;
+	height: 40px;
+	line-height: 20px;
+	width: 100%;
+	border: 0 none;
+}
+.personal-sub .set-mood .btn{
+	width:64px ;
+	height: 23px;
+	border:  0 none;
+	background-color:#ed456d ;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	color: #fff;
+	margin: 5px 0 0 110px;
+	cursor: pointer;
+}
+.personal-sub .sub-nav,.personal-sub .same-firend{
+	margin-top: 15px;
+	padding: 0 1px;
+}
+.personal-sub .sub-nav .title,.personal-sub .same-firend .title{
+	height: 30px;
+	padding-left: 10px;
+	line-height: 30px;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	border-bottom: 1px solid #fa8aa5;
+	background-color: #ffd2dc;
+	color: #e91748;
+}
+.personal-sub .sub-nav .list,.personal-sub .same-firend .list{
+	position: relative;
+	padding:10px 0 0 0  ;
+	background: url("../images/bx_bg.png") 0 -5px repeat-x;
+	margin-bottom: -1px;
+}
+.personal-sub .same-firend .list li{
+	width: 52px;
+	height: 90px;
+	float: left;
+	display: inline;
+	margin: 10px 0 0 15px;
+	word-break: break-all;
+	word-wrap: break-word;
+	text-align: center;
+
+}
+.personal-sub .same-firend .list .imgbox{
+	border: 1px solid #cbcbcb;
+	display: block;
+}
+.personal-sub .same-firend .list p{
+	line-height: 16px;
+	margin-top: 3px;
+}
+.personal-sub .same-firend .list a:link,.personal-sub .same-firend .list a:visited{
+	color: #e91748;
+}
+.personal-sub .sub-nav .on{
+	background-color: #fff;
+	font-weight: bold;
+	color: #e91748;
+}
+.personal-sub .sub-nav .on .num{
+	font-weight: normal;
+}
+.personal-sub .sub-nav .on a:link,.personal-sub .sub-nav .on a:visited{
+	color: #e91748;
+}
+.personal-sub .sub-nav .list li{
+	height: 29px;
+	line-height: 29px;
+	border-bottom: 1px dashed #cbcbcb;
+	padding-left: 10px;
+	font-size: 14px;
+
+}
+.personal-sub .sub-nav .list .num{
+	color: #999;
+	font-size: 12px;
+	font-family: "arial";
+	padding-left: 5px;
+}
+
+/*右侧*/
+.personal-main{
+	float: right;
+	width: 760px;
+}
+.personal-main .col-main{
+	border: 1px solid #cbcbcb;
+	padding: 1px 1px 0;
+}
+.personal-main .col-main .title{
+	height: 34px;
+	padding-left: 15px;
+	line-height: 34px;
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	border-bottom: 1px solid #fa8aa5;
+	background-color: #ffd2dc;
+	color: #e91748;
+	position: relative;
+}
+.personal-main .col-main .title .num{
+	font-size: 12px;
+	font-family: "arial";
+}
+.personal-main .home-list,.personal-main .fans-list,.personal-main .notice-list{
+	background-color: #faf8f6;
+	/*margin-top: -1px;*/
+	zoom:1;
+	word-break: break-all;
+	word-wrap:break-word;
+}
+.personal-main .home-list .box,.personal-main .fans-list .box,.personal-main .notice-list .box{
+	padding: 15px 20px;
+	border-bottom: 1px dashed #cbcbcb;
+}
+.personal-main .home-list .imgbox,.personal-main .notice-list .imgbox{
+	width: 52px;
+	float: left;
+}
+.personal-main .home-list .imgbox img,.personal-main .notice-list .imgbox img{
+	border:1px solid #cbcbcb;
+}
+.personal-main .home-list .imgbox p{
+	margin-top: 5px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 14px;
+}
+.personal-main .home-list a:link,.personal-main .home-list a:visited{
+	color: #e91748;
+}
+.personal-main .home-list .info-box,.personal-main .notice-list .info-box{
+	float: right;
+	width: 646px;
+}
+.personal-main .notice-list .info-box{
+	color: #666;
+	line-height: 20px;
+	position: relative;
+}
+.personal-main .home-list .info-box .red{
+	font-size: 14px;
+}
+.personal-main .home-list .info-box .img-tx{
+	margin-top: 5px;
+	position: relative;
+}
+.personal-main .home-list .info-box .load{
+	position: absolute;
+	left: 39.5px;
+	top: 52px;
+	display: none;
+	width: 16px;
+	height: 16px;
+	background: url("../images/loading.gif") no-repeat;
+}
+.personal-main .home-list .info-box .img-tx img{
+	cursor:url(../images/big.cur), auto!important;
+}
+.personal-main .home-list .info-box .big-img{
+	width: 580px;
+	margin-top: 5px;
+	border: 1px solid #cbcbcb;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	padding: 10px 20px;
+
+}
+.personal-main .home-list .info-box .bigimgDiv {
+	text-align: center;
+
+}
+.personal-main .home-list .bigImgtab{
+	height: 20px;
+	line-height: 20px;
+	text-align: left;
+	padding-bottom: 5px;
+	color: #999;
+}
+.personal-main .home-list .bigImgtab a{
+	padding: 0 5px 0 15px;
+}
+.personal-main .home-list .bigImgtab .retract{
+	background-position:-287px -61px;
+}
+.personal-main .home-list .bigImgtab .tobig{
+	background-position:-288px -86px;
+}
+.personal-main .home-list .bigImgtab .l{
+	background-position:-289px -112px;
+}
+.personal-main .home-list .bigImgtab .r{
+	background-position:-289px -136px;
+}
+.personal-main .home-list .bigImgtab a:link,.personal-main .home-list .bigImgtab a:visited{
+	color: #666;
+}
+.personal-main .home-list .info-box .big-img img,.personal-main .home-list .info-box .big-img canvas{
+	cursor:url(../images/small.cur), auto!important;
+}
+.personal-main .home-list .bt-info{
+	margin-top: 15px;
+	font-size: 13px;
+}
+.personal-main .home-list .from{
+	margin-left: 20px;
+}
+.personal-main .home-list .last-time{
+	float: right;
+}
+.personal-main .home-list .last-time .user-name{
+	padding-left: 10px;
+}
+
+/*发表新帖弹出框*/
+
+.set-NewPup{
+	width: 500px;
+	padding-bottom: 10px;
+	border: 1px solid #cbcbcb;
+	position: fixed;
+	_position: absolute;
+	left: 100px;
+	top: 100px;
+	background-color: #faf8f6;
+	display: none;
+}
+.set-NewPup .title{
+	position: relative;
+	height: 33px;
+	line-height: 33px;
+	color: #e91748;
+	background-color: #fed1da;
+	padding-left: 20px;
+	border-bottom: 1px solid #fff;
+}
+.set-NewPup .title h2{
+	font-weight: bold;
+	font-size: 14px;
+}
+.set-NewPup .title .close{
+	position: absolute;
+	width:21px;
+	height:21px;
+	background-position:-22px 0;
+	right: 7px;
+	top: 5px;
+	cursor: pointer;
+}
+.set-NewPup .set-box{
+	padding: 10px 20px 0;
+}
+.set-NewPup .set-box .set-title{
+	height: 22px;
+	line-height: 22px;
+}
+.set-NewPup .set-box label{
+	float: left;
+}
+.set-NewPup .set-box .input-tx{
+	float: left;
+	width: 240px;
+	padding: 0 2px;
+	border: 1px solid #cbcbcb;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 20px;
+}
+.set-NewPup .set-box .select{
+	float: left;
+}
+.set-NewPup .set-box .box{
+	border:1px solid #cbcbcb;
+	margin-top: 20px;
+	background-color: #fff;
+}
+.set-NewPup .set-box .box .tx-title{
+	height: 27px;
+	line-height: 27px;
+	border-bottom: 1px solid #cbcbcb;
+	background-color: #faf8f6;
+}
+.set-NewPup .set-box .face-btn, .set-NewPup .set-box .face-btn2 {
+	float: left;
+	font-size: 12px;
+	padding-left: 22px;
+	background-position:-282px 4px;
+	margin-left: 10px;
+	cursor: pointer;
+	color: #76a0b3;
+}
+.set-NewPup .set-box .face-btn2{
+	background-position:-284px -27px;
+}
+.set-NewPup .set-box .set-tx{
+	height: 125px;
+	padding: 2px 5px;
+	border: 0 none;
+	resize: none;
+	display: block;
+	width: 448px;
+	overflow-y: auto;
+}
+.set-NewPup .set-box  .set-btn{
+	width: 75px;
+	height: 26px;
+	border: 0 none;
+	float: right;
+	margin-top: 10px;
+	background-color: #ff5079;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+/*我的粉丝*/
+.personal-main .fans-list .fans-box{
+	height: 52px;
+	position: relative;
+}
+.personal-main .fans-list .imgbox{
+	width: 52px;
+	float: left;
+}
+.personal-main .fans-list .imgbox img{
+	border:1px solid #cbcbcb;
+}
+.personal-main .fans-list .fans-info{
+	float: left;
+	width: 550px;
+	padding-left: 10px;
+	line-height: 14px;
+	color: #666;
+}
+.personal-main .fans-list .mbspace span{
+	padding-right: 10px;
+}
+.personal-main .fans-list .fans-info p{
+	margin-bottom: 5px;
+}
+.personal-main .fans-list .user-name{
+	font-size: 14px;
+}
+.personal-main .fans-list .user-name a:link,.personal-main .fans-list .user-name a:visited{
+	color: #e91748;
+}
+.personal-main .fans-list .addBtn{
+	float: right;
+	width: 64px;
+	height: 23px;
+	line-height: 23px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	background-color: #ff5079;
+	text-align: center;
+	margin-top: 5px;
+}
+.personal-main .fans-list .addBtn:link,.personal-main .fans-list .addBtn:visited{
+	color: #fff;
+}
+.personal-main .fans-list .fans-article{
+	margin-top: 15px;
+	line-height: 20px;
+}
+.personal-main .fans-list .fans-article-title{
+	font-size: 14px;
+	color: #e91748;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.personal-main .fans-list .fans-article-title .time{
+	font-size: 12px;
+	font-weight: normal;
+}
+.personal-main .fans-list .fans-article a:link,.personal-main .fans-list .fans-article a:visited{
+	color: #666;
+}
+.personal-main .fans-list .fans-article-title a:link,.personal-main .fans-list .fans-article-title a:visited,.personal-main .fans-list .fans-article a:hover{
+	color: #e91748;
+}
+.personal-main .notice-list  .user-name{
+	font-size: 14px;
+	color: #e91748;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.personal-main .notice-list .time{
+	margin-top: 5px;
+	text-align: right;
+}
+.personal-main .notice-list .close{
+	width:19px;
+	height:19px;
+	background-position:-22px -31px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	cursor: pointer;
+	display: none;
+}
+.personal-main .notice-list .info-box:hover .close,.personal-main .notice-list .hover .close{
+	display: block;
+}
+.personal-main .notice-list{
+	position: relative;
+}
+.personal-main .notice-list .all-del{
+	width: 130px;
+	height: 32px;
+	background-position:-120px 0;
+	border: 0 none;
+	display: block;
+	color: #E91748;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	position: absolute;
+	bottom: 35px;
+	left: 20px;
+}
+
+
+/*修改资料*/
+
+.modify-box .base-list{
+	padding: 30px 0 10px;
+}
+.modify-box .base-list li{
+	min-height: 28px;
+	line-height: 28px;
+	margin-top: 10px;
+	_zoom:1
+}
+.modify-box .base-list label{
+	width: 150px;
+	float: left;
+	padding-right: 5px;
+	text-align: right;
+}
+.modify-box .base-list .input-tx{
+	width: 288px;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 5px;
+	border: 1px solid #cbcbcb;
+	float: left;
+}
+.modify-box .base-list .user-name{
+	float: left;
+	color: #e91748;
+}
+.modify-box .rl{
+	display: block;
+	width: 740px;
+	height: 1px;
+	overflow: hidden;
+	margin: 10px auto 0;
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: #CBCBCB;
+	background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(203,203,203,1) 15%, rgba(203,203,203,1) 85%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(15%,rgba(203,203,203,1)), color-stop(85%,rgba(203,203,203,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(203,203,203,1) 15%,rgba(203,203,203,1) 85%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(203,203,203,1) 15%,rgba(203,203,203,1) 85%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(203,203,203,1) 15%,rgba(203,203,203,1) 85%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(203,203,203,1) 15%,rgba(203,203,203,1) 85%,rgba(255,255,255,1) 100%); /* W3C */
+
+}
+.modify-box .base-list .avatar{
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #cbcbcb;
+}
+.modify-box .base-list .a-tx{
+	line-height: 14px;
+	margin-top: 35px;
+}
+.modify-box .base-list .edit{
+	float: left;
+	margin-left: 10px;
+	line-height: 14px;
+	margin-top: 35px;
+}
+.modify-box .base-list .edit:link,.modify-box .base-list .edit:visited{
+	color: #e91748;
+ }
+.modify-box .base-list .textarea{
+	float: left;
+	width: 360px;
+	padding: 2px 5px;
+	height: 66px;
+	border: 1px solid #cbcbcb;
+	resize: none;
+	overflow-y: auto;
+}
+.modify-box .base-list .signature{
+	margin-top: 20px;
+}
+.modify-box .base-list .input-radio{
+	width: 14px;
+	height: 14px;
+	float: left;
+	margin: 7px 3px 0 0;
+}
+.modify-box .base-list .ck-box{
+	float: left;
+	width: 750px;
+}
+.modify-box .base-list .ck-box .ck-tx{
+	float: left;
+}
+.modify-box .base-list .ck-box label{
+	width: auto;
+	padding-right: 10px;
+}
+.modify-box .base-list .radio{
+	float: left;
+	padding-right: 20px;
+}
+.modify-box .base-list .select{
+	float: left;
+	margin: 5px 5px 0 0;
+}
+.modify-box .modify-btn{
+	display: block;
+	margin:  20px auto 0;
+	width:211px;
+	height:79px;
+	background-position:0 -52px;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: "microsoft yahei";
+	text-align: center;
+	line-height: 53px;
+}
+.modify-box .modify-btn:link,.modify-box .modify-btn:visited{
+	color: #fff;
+}
+.set-avatarPup{
+	width: 548px;
+	height: 378px;
+	border: 1px solid #cbcbcb;
+	position: fixed;
+	_position: absolute;
+	left: 100px;
+	top: 100px;
+	background-color: #fff;
+	display: none;
+}
+.set-avatarPup .title{
+	height: 36px;
+	line-height: 36px;
+	padding-left: 10px;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+	background-color: #e91748;
+	font-weight: bold;
+}
+.set-avatarPup .close{
+	width:17px;
+	height:17px;
+	background-position:-52px -32px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+.set-avatarPup .flash{
+	width: 450px;
+	height: 250px;
+	border: 1px solid #cbcbcb;
+	margin: 28px auto 0;
+}
+.set-avatarPup .set-Btn{
+	width: 130px;
+	height: 32px;
+	background-position: -120px 0;
+	border: 0 none;
+	display: block;
+	color: #E91748;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 10px auto 0;
+}

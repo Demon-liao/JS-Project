@@ -1,0 +1,265 @@
+/*
+ * Created by demon.
+ * User: Administrator
+ * Date: 12-10-11
+ * Time: 下午3:20
+ * To change this template use File | Settings | File Templates.
+ */
+.header .nav li,.header .search-box .input-btn,.register-box  .reg-btn,.register-box .reg-Fromlist .error,.register-box .avatar-btnBox .btn,#top .icon,.register-box .success .list li,.login-more .sina,.login-more .qq,.header .user-box .icon1,.register-box .reg-Fromlist .suc,.f-pwdConent .box .btnBox .nextBtn,.f-pwdConent .box .setCode,.f-pwdBox .reset-box .btn{
+	background: url("../images/header.png") no-repeat;
+}
+.personal-sub .set-mood .mood-icon,.set-NewPup .title .close,.set-NewPup .set-box li,.footer-sort .box .title s,.personal-main .notice-list .close,.personal-main .notice-list .all-del,.modify-box .modify-btn,.set-avatarPup .close,.set-avatarPup .set-Btn,.personal-main .home-list .bigImgtab a{
+	background: url("../images/personla.png") no-repeat;
+}
+em{
+	color: #e91748;
+}
+.waper-box{
+	width: 100%;
+	position: relative;
+	padding-top: 20px;
+}
+.waper-box .wBg{
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 40px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwZTBlMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc5JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgb(224,224,224) 0%, rgb(255,255,255) 79%, rgb(255,255,255) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(224,224,224)), color-stop(79%,rgb(255,255,255)), color-stop(100%,rgb(255,255,255)));
+	background: -webkit-linear-gradient(top,  rgb(224,224,224) 0%,rgb(255,255,255) 79%,rgb(255,255,255) 100%);
+	background: -o-linear-gradient(top,  rgb(224,224,224) 0%,rgb(255,255,255) 79%,rgb(255,255,255) 100%);
+	background: -ms-linear-gradient(top,  rgb(224,224,224) 0%,rgb(255,255,255) 79%,rgb(255,255,255) 100%);
+	background: linear-gradient(to bottom,  rgb(224,224,224) 0%,rgb(255,255,255) 79%,rgb(255,255,255) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#ffffff',GradientType=0 );
+}
+.waper{
+	width: 1000px;
+	margin: 0 auto;
+}
+/*公告的外围*/
+.modify-box,.register-box,.f-pwdBox {
+	border: 1px solid #CBCBCB;
+	padding: 20px 30px 30px;
+	background-color: #FAF8F6;
+}
+.modify-box .modify-title ,.register-box .register-title,.f-pwdBox .pwd-title{
+	height: 35px;
+	position: relative;
+	line-height: 30px;
+	background: url("../images/line.png") 0 bottom no-repeat;
+}
+.modify-box .modify-title h2,.register-box .register-title h2,.f-pwdBox .pwd-title h2{
+	font-family: "microsoft yahei";
+	font-size: 24px;
+	color: #e91748;
+}
+.modify-box .modify-title .en,.register-box .register-title .en,.f-pwdBox .pwd-title .en{
+	font-family: "arial";
+	font-size: 14px;
+	color: #c2c2c2;
+	padding-left: 5px;;
+}
+
+/*返回顶部*/
+.goTop {
+	position: fixed;
+	_position: absolute;
+	width: 24px;
+	height:230px;
+	text-align:center ;
+	z-index: 99;
+	left: 100px;
+	top:100px;
+	display:none;
+}
+.goTop .box{
+	height:60px ;
+	border: 1px solid #f26e8d;
+	color: #f26e8d;
+	background-color: #fff;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	width: 20px;
+	display: block;
+	padding: 2px 0 0 1px;
+	line-height: 15px;
+	margin-top: 5px;
+}
+.goTop a:link,.goTop a:visited{
+	color: #f26e8d;
+}
+.goTop a:hover{
+	text-decoration: none;
+}
+#top{
+	padding-top: 20px;
+	position: relative;
+	cursor: pointer;
+	line-height: 14px;
+
+}
+#top .icon{
+	background-position:-62px -5px;
+	position: absolute;
+	top: 2px;
+	width:14px;
+	height:15px;
+	left: 4px;
+}
+
+/*
+ 统一分页样式
+ By demon
+*/
+#page{
+	margin-top:35px;
+	text-align:right;
+	padding: 0 20px 35px 0;}
+#page span,#page a{
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	color: #666666;
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	vertical-align:top;
+	margin: 0 2px;
+	overflow: hidden;
+	padding: 0 5px;
+	font-family: "arial";
+	background-image: -webkit-linear-gradient(top, #fbfbfb, #e9e9e9);
+	background-image: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+	background-image: -o-linear-gradient(top, #fbfbfb, #e9e9e9);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fbfbfb', EndColorStr='#e9e9e9');
+}
+#page a{
+	border:1px solid #d4d1cd;
+}
+
+#page a:link,#page a:visited{
+	color:#666;}
+
+#page .select,#page .select:link,#page .select:visited{
+	background: #ff5079;
+	filter:none;
+	color: #fff;}
+#page .dot{
+	border: 1px solid #f7f7f7;
+	color: #666;
+	background-image: none;
+	filter:none;}
+
+#page .text{
+	background: none;
+	filter:none;
+	border: none;
+	padding: 0 2px 0 0;
+	line-height: 20px;
+}
+#page .input-tx{
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	box-shadow: none;
+	padding: 0;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	vertical-align: top;
+	_margin-top: -1px;
+	text-align: center;
+	float: none;
+	background-color: #fff;
+}
+#page .btn{
+	width: 27px;
+	height: 20px;
+	border: 0 none;
+	padding: 0;
+	filter:none;
+	background: none;
+	background-color: #ff5079;
+	text-align: center;
+	font-family: "arial";
+	font-weight: bold;
+	color: #fff;
+	border: 0 none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	cursor: pointer;
+}
+
+
+/*底部内容*/
+.footer-sort{
+	margin: 20px auto 0;
+	border:1px solid #cbcbcb;
+	width: 998px;
+	background: url("../images/p_bt_line.png") repeat-x #faf8f6;
+	overflow: hidden;
+
+}
+.footer-sort .box{
+	float: left;
+	width: 180px;
+	border-left: 1px solid #cbcbcb;
+	padding-bottom: 10px;
+	margin-left: -1px;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
+}
+.footer-sort .box .title{
+	height: 32px;
+	line-height: 32px;
+	padding-left: 25px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #e91748;
+	position: relative;
+}
+.footer-sort .box .title s{
+	width:10px;
+	height:7px;
+	background-position:0 -16px;
+	position: absolute;
+	top: 32px;
+	left: 25px;
+}
+.footer-sort .box .list{
+	padding: 10px 0 0 0;
+}
+.footer-sort .box .list li{
+	float: left;
+	height: 27px;
+	line-height: 27px;
+	margin: 0 0px  0 20px ;
+	display: inline;
+	width: 35px;
+	zoom:1
+}
+.footer-sort .box1{
+	width: 228px;
+}
+.footer-sort .box1 .list li{
+	width: 64px;
+	margin: 0;
+}
+.footer-sort .box2 .list,.footer-sort .box1 .list{
+	padding-left: 20px;
+}
+.footer-sort .box2 .list li{
+	width: 76px;
+	margin: 0;
+}
